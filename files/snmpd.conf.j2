@@ -1,0 +1,12 @@
+rocommunity {{ comunidade }} {{ snmp_server }}
+rocommunity {{ comunidade }} {{ snmp_server }}
+proc 0 0
+sysservices 76
+load 12 14 16
+access  any noauth exact
+com2sec local default public
+rouser ssr
+sysContact	ngsi@trf5.jus.br
+sysDescr	{{ ansible_hostname }}
+sysname		{{ ansible_hostname }}
+syslocation	TRF5
